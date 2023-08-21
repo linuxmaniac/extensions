@@ -1,0 +1,10 @@
+version: v1alpha1
+metadata:
+  name: rpi-monitor
+  version: "$VERSION"
+  author: Victor Seva <linuxmaniac@torreviejawireless.org>
+  description: |
+    system extension to display information via ssd1306 OLED display
+  compatibility:
+    talos:
+      version: ">= v1.4.0"

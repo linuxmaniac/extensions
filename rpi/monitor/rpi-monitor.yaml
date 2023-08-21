@@ -1,0 +1,7 @@
+name: rpi-monitor
+container:
+  entrypoint: ./rpi-monitor
+depends:
+  - network:
+    - addresses
+restart: always

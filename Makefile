@@ -39,6 +39,7 @@ empty :=
 space = $(empty) $(empty)
 
 TARGETS = \
+		rpi-monitor \
 		amd-ucode \
 		bnx2-bnx2x \
 		drbd \
