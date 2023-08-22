@@ -1,0 +1,10 @@
+version: v1alpha1
+metadata:
+  name: amdgpu
+  version: "$VERSION"
+  author: Sidero Labs
+  description: |
+    This system extension provides AMDGPU binaries.
+  compatibility:
+    talos:
+      version: ">= v1.4.8"
